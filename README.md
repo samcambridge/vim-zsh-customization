@@ -1,14 +1,18 @@
-# Vim and zsh customization
+# Purpose
 
-This is a repository to show how to customize your dev-box environment with your own dotfiles and packages.
+Customize your dev-box env with your own dotfiles and packages.
 
-In this example the dotfiles are taken from an external github repo. If you want to put your `.` files directly, use `home` directory.
+Here, dotfiles are taken from an external github repo.
 
-Zsh gets charged with powerlevel10k here.
+This installation sets up bundled `vim` and `zsh`
 
-After you ssh to your dev-box, type `zsh` or in your .ssh/config add:
+Zsh gets charged with `powerlevel10k`.
+
+After you ssh to your dev-box, type `zsh` and enjoy. 
+
+You can also add the last two lines to your `.ssh/config`:
 ```
-Host dev-box
+Host my-dev-box
     HostName 1.2.3.4
     RequestTTY yes
     RemoteCommand zsh
