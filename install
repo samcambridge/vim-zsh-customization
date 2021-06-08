@@ -28,8 +28,11 @@ git clone https://github.com/jeetsukumaran/vim-indentwise
 git clone https://github.com/tpope/vim-rails
 
 # dotfiles
-cd && git clone -b sandbox https://github.com/vysogot/dotfiles .dotfiles
-cd .dotfiles && cp .gemrc .bash_profile .gitconfig .vimrc ~/
+cd && git clone -b sandbox https://github.com/vysogot/dotfiles ~/.dotfiles
+cd ~/.dotfiles && cp .gemrc .bash_profile .gitconfig .vimrc ~/
 
 # zsh
-cd .dotfiles && cp .zshrc .p10k.zsh ~/ && git clone https://github.com/romkatv/powerlevel10k.git
+cd ~/.dotfiles && cp .zshrc .p10k.zsh ~/ && git clone https://github.com/romkatv/powerlevel10k.git
+
+# return to home folder
+cd
