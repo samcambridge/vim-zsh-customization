@@ -1,4 +1,4 @@
-# Purpose
+# Vim and Zsh out of the dev-box
 
 Customize your dev-box env with your own dotfiles and packages.
 
