@@ -1,3 +1,5 @@
+#! /usr/bin/env bash
+
 sudo apt-get update
 
 # linux packages (when not available via apt)
