@@ -34,5 +34,8 @@ cd ~/.dotfiles && cp .gemrc .bash_profile .gitconfig .vimrc ~/
 # zsh
 cd ~/.dotfiles && cp .zshrc .p10k.zsh ~/ && git clone https://github.com/romkatv/powerlevel10k.git
 
+# visual studio live share
+wget -O ~/vsls-reqs https://aka.ms/vsls-linux-prereq-script && chmod +x ~/vsls-reqs && ~/vsls-reqs
+
 # return to home folder
 cd
