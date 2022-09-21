@@ -29,7 +29,7 @@ git clone https://github.com/tpope/vim-rails
 
 # dotfiles
 cd && git clone -b sandbox https://github.com/samcambridge/dotfiles ~/.dotfiles
-cd ~/.dotfiles && cp .bash_profile .gitconfig .vimrc ~/
+cd ~/.dotfiles && cp .bash_profile .gitconfig .vimrc .zshrc ~/
 
 # zsh
 cd ~/.dotfiles && cp .zshrc .p10k.zsh ~/ && git clone https://github.com/romkatv/powerlevel10k.git
