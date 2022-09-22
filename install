@@ -22,6 +22,8 @@ git clone https://github.com/jeetsukumaran/vim-indentwise
 git clone https://github.com/tpope/vim-rails
 
 # dotfiles
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+sudo chsh -s $(which zsh)
 cd && git clone -b main https://github.com/samcambridge/dotfiles ~/.dotfiles
 cd ~/.dotfiles && cp .bash_profile .gitconfig .vimrc .zshrc ~/
 
