@@ -21,6 +21,9 @@ git clone https://github.com/tpope/vim-fugitive
 git clone https://github.com/jeetsukumaran/vim-indentwise
 git clone https://github.com/tpope/vim-rails
 
+cd && wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+CHSH=no sh install.sh
+
 # dotfiles
 cd && git clone -b main https://github.com/samcambridge/dotfiles ~/.dotfiles
 cd ~/.dotfiles && cp .bash_profile .gitconfig .vimrc .zshrc ~/
