@@ -26,7 +26,8 @@ cd && git clone -b main https://github.com/samcambridge/dotfiles ~/.dotfiles
 cd ~/.dotfiles && cp .bash_profile .gitconfig .vimrc .zshrc ~/
 
 # zsh
-cd ~/.dotfiles && cp .zshrc ~/ && git clone https://github.com/romkatv/powerlevel10k.git
+source ~/.zshrc
+cd ~/.dotfiles && git clone https://github.com/romkatv/powerlevel10k.git
 
 # return to home folder
 cd
